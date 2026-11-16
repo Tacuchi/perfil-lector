@@ -1,5 +1,5 @@
 /** Conexiones que se leen desde la máquina, con el nombre que usa la API. */
-export type FuenteMaquina = 'LINKEDIN';
+export type FuenteMaquina = 'LINKEDIN' | 'BUMERAN';
 
 /** Fallos que la API reconoce en una entrega; el detalle visible lo escribe la API. */
 export type FalloMaquina = 'SIN_SESION' | 'VERIFICACION' | 'RITMO' | 'VACIA';

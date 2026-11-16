@@ -1,0 +1,92 @@
+{
+  "number": 0,
+  "size": 20,
+  "total": 2859,
+  "content": [
+    {
+      "id": 1118631884,
+      "titulo": "INGENIERO DE PRODUCCIÓN (SISTEMA APORTICADO)",
+      "detalle": "Importante Empresa Líder del Sector Inmobiliario y Construcción se encuentra en búsqueda de un Ingeniero de Producción.¿Buscas asumir nuevos retos en proyectos inmobiliarios de gran envergadura? Esta es una excelente oportunidad para integrarte a una organización sólida y en constante crecimiento, participando en la construcción de edificios multifamiliares.Funciones principales: Planificar, organizar y controlar la ejecución de los procesos constructivos de obra. Ejecutar y controlar la torre desde la etapa de casco hasta los acabados húmedos. Planificar y controlar la obra con el Last Planne",
+      "empresa": "OVERALL STRATEGY S.A.C.",
+      "confidencial": false,
+      "fechaHoraPublicacion": "15-11-2026 13:30:39",
+      "fechaPublicacion": "15-11-2026",
+      "localizacion": "Lima, Lima",
+      "modalidadTrabajo": "Presencial",
+      "tipoTrabajo": "Full-time",
+      "idArea": 19,
+      "portal": "bumeran",
+      "tipoAviso": "simple"
+    },
+    {
+      "id": 1118631833,
+      "titulo": "Analista Programador Junior",
+      "detalle": "Misión del puesto:Atender los requerimientos de programas de desarrollo de software y/o soluciones tecnológicas para asegurar la continuidad de los servicios y aplicaciones.Requisitos: Egresado de carreras técnicas o universitarias en Programación, Ingeniería de Sistemas o carreras afines. 01 año como programador, de preferencia en el sector educativo. Lenguajes de programación: SQL Server, MongoBD, .NET con JavaScript y HTML. Web services, integración por API Manejo de JIRA Word nivel intermedio. Excel nivel avanzado. Inglés: BásicoFunciones:  Construir programas para dar solución a requerimi",
+      "empresa": "Zoluxiones SAC",
+      "confidencial": false,
+      "fechaHoraPublicacion": "15-11-2026 08:35:01",
+      "fechaPublicacion": "15-11-2026",
+      "localizacion": "Villa El Salvador, Lima",
+      "modalidadTrabajo": "Híbrido",
+      "tipoTrabajo": "Full-time",
+      "idArea": 19,
+      "portal": "bumeran",
+      "tipoAviso": "simple"
+    },
+    {
+      "id": 1118631831,
+      "titulo": "Analista Programador Senior",
+      "detalle": "Misión del puesto: Atender los requerimientos de programas de desarrollo de software y/o soluciones tecnológicas para asegurar la continuidad de los servicios y aplicaciones.Requisitos: Técnico en Programación o Bachiller en Ingeniería de Sistemas, Software, Informática o carreras afines. 03 años como programador o similares, de preferencia en el sector educativo.  Lenguajes de programación: .NET con JavaScript (indispensable), HTML, JQuery, Node.js  Bases de datos SQL Server y MongoBD.  Web services, integración por API.  API Gateway, ESB, middleware y arquitecturas n-capas.  AWS, Azure o Goo",
+      "empresa": "Zoluxiones SAC",
+      "confidencial": false,
+      "fechaHoraPublicacion": "15-11-2026 08:32:01",
+      "fechaPublicacion": "15-11-2026",
+      "localizacion": "Villa El Salvador, Lima",
+      "modalidadTrabajo": "Híbrido",
+      "tipoTrabajo": "Full-time",
+      "idArea": 19,
+      "portal": "bumeran",
+      "tipoAviso": "simple"
+    },
+    {
+      "id": 1118631830,
+      "titulo": "Programador de Integración de Inteligencia Artificial - Semi Senior",
+      "detalle": "Objetivo del puesto:Integrar soluciones y servicios de inteligencia artificial con los sistemas de información de la universidad, garantizando interoperabilidad, seguridad, continuidad operativa y automatización de procesos.Requisitos: Bachiller o titulado en Ingeniería de Sistemas, Software, Informática o carreras afines.  Mínimo 3 años en desarrollo backend, integración de aplicaciones o sistemas empresariales. Experiencia práctica integrando APIs y servicios de IA, sustentada con proyectos.  Python, Java, C#/.NET o JavaScript/TypeScript.  Integración REST, SOAP, JSON, XML y Webhooks.  Bases",
+      "empresa": "Zoluxiones SAC",
+      "confidencial": false,
+      "fechaHoraPublicacion": "15-11-2026 08:28:46",
+      "fechaPublicacion": "15-11-2026",
+      "localizacion": "Villa El Salvador, Lima",
+      "modalidadTrabajo": "Híbrido",
+      "tipoTrabajo": "Full-time",
+      "idArea": 19,
+      "portal": "bumeran",
+      "tipoAviso": "simple"
+    },
+    {
+      "id": 1118631828,
+      "titulo": "Programador Senior de Inteligencia Artificial",
+      "detalle": "Objetivo del Puesto:Diseñar, desarrollar, implementar y mantener soluciones de inteligencia artificial que optimicen procesos y generen valor a la institución, asegurando calidad, seguridad, escalabilidad y rendimiento.Requisitos: Bachiller o titulado en Ingeniería de Sistemas, Software, Informática, Ciencias de la Computación o carreras afines. Mínimo 5 años de experiencia en desarrollo de software, ingeniería de datos o soluciones tecnológicas, de los cuales al menos 2 años en proyectos de IA o Machine Learning (o experiencia equivalente demostrable).  Python avanzado, SQL y desarrollo de AP",
+      "empresa": "Zoluxiones SAC",
+      "confidencial": false,
+      "fechaHoraPublicacion": "15-11-2026 08:25:16",
+      "fechaPublicacion": "15-11-2026",
+      "localizacion": "Villa El Salvador, Lima",
+      "modalidadTrabajo": "Híbrido",
+      "tipoTrabajo": "Full-time",
+      "idArea": 19,
+      "portal": "bumeran",
+      "tipoAviso": "simple"
+    }
+  ],
+  "filtersApplied": [
+    {
+      "type": "area",
+      "id": "19",
+      "idSemantico": "tecnologia-sistemas-y-telecomunicaciones",
+      "name": "Tecnología, Sistemas y Telecomunicaciones"
+    }
+  ],
+  "totalSearched": 2859,
+  "homeList": null
+}

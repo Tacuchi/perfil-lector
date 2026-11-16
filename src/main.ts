@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { correr, type Salida } from './corrida.js';
 import { credencialesDelLlavero } from './credenciales.js';
+import { lectorBumeran } from './fuentes/bumeran.js';
 import { lectorLinkedIn } from './fuentes/linkedin.js';
 import { registroEnArchivo } from './registro.js';
 
@@ -11,7 +12,7 @@ const CODIGOS: Record<Salida, number> = {
 // Solo se mira el primer argumento: la app del enlace pasa la dirección como uno solo, citado.
 const salida = await correr(process.argv[2], {
   credenciales: () => credencialesDelLlavero(),
-  lectores: { LINKEDIN: () => lectorLinkedIn() },
+  lectores: { LINKEDIN: () => lectorLinkedIn(), BUMERAN: () => lectorBumeran() },
   registro: registroEnArchivo(),
 });
 process.exitCode = CODIGOS[salida];

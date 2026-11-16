@@ -13,7 +13,8 @@ export type Salida = 'terminada' | 'enlace-invalido' | 'sin-credenciales' | 'cod
 
 export interface Dependencias {
   credenciales: () => Promise<Credenciales>;
-  lectores: Record<FuenteMaquina, () => LectorDeFuente>;
+  /** Un lector por fuente de la máquina; una fuente sin lector se registra y no se lee. */
+  lectores: Partial<Record<FuenteMaquina, () => LectorDeFuente>>;
   registro: Registro;
   fetch?: Fetch;
   ahora?: () => number;

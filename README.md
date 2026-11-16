@@ -1,7 +1,7 @@
 # perfil-lector
 
 Lee desde la Mac de la persona las fuentes de ofertas que no se dejan leer desde el servidor y las entrega a la API
-del perfil. Hoy lee LinkedIn.
+del perfil. Hoy lee LinkedIn y Bumeran, sin que una espere a la otra.
 
 ## Cómo se usa
 
@@ -20,6 +20,9 @@ del perfil. Hoy lee LinkedIn.
 - Abre Google Chrome con un perfil propio por conexión en `~/Library/Application Support/perfil-lector/`.
 - Si falta la sesión de LinkedIn, abre la ventana en el inicio de sesión y lee al terminar.
 - Lee como mucho 25 avisos por corrida, entrega y termina. No postula ni escribe nada en LinkedIn.
+- Bumeran se lee siempre en una ventana de Chrome que la persona ve abrirse y cerrarse: una sola carga de la búsqueda
+  de avisos de tecnología más recientes, de la que solo se escucha lo que la propia página carga. Una verificación o
+  un bloqueo detienen la lectura sin resolverlo.
 
 El registro local está en `~/Library/Logs/perfil-lector/lector.log` y nunca guarda el código de la corrida ni el
 token.
