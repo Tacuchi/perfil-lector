@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.log
+# Los perfiles de Chrome viven en ~/Library/Application Support/perfil-lector, nunca aquí.
+perfiles/

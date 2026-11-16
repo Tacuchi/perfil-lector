@@ -1,0 +1,27 @@
+{
+  "name": "perfil-lector",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lee desde la máquina de la persona las fuentes de ofertas que no se dejan leer desde el servidor y las entrega a la API del perfil.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.20"
+  },
+  "bin": {
+    "perfil-lector": "dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "instalar": "npm run build && node dist/instalador/cli.js instalar",
+    "desinstalar": "node dist/instalador/cli.js desinstalar"
+  },
+  "dependencies": {
+    "playwright-core": "1.65.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "7.0.2",
+    "vitest": "5.1.0"
+  }
+}

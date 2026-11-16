@@ -1,0 +1,219 @@
+{
+  "data": {
+    "data": {
+      "jobsDashJobCardsByPrefetch": {
+        "elements": [
+          {
+            "jobCard": {
+              "*jobPostingCard": "urn:li:fsd_jobPostingCard:4488432885"
+            }
+          },
+          {
+            "jobCard": {
+              "*jobPostingCard": "urn:li:fsd_jobPostingCard:4487409933"
+            }
+          },
+          {
+            "jobCard": {
+              "*jobPostingCard": "urn:li:fsd_jobPostingCard:4479214618"
+            }
+          },
+          {
+            "jobCard": {
+              "*jobPostingCard": "urn:li:fsd_jobPostingCard:4478592777"
+            }
+          },
+          {
+            "jobCard": {
+              "*jobPostingCard": "urn:li:fsd_jobPostingCard:4484237621"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "included": [
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "entityUrn": "urn:li:fsd_jobPosting:4488432885",
+      "title": "Senior Backend Engineer (LATAM)",
+      "createdAt": 1794004586000,
+      "*location": "urn:li:fsd_geo:102927786",
+      "*jobWorkplaceTypes": [
+        "urn:li:fsd_workplaceType:2"
+      ],
+      "companyDetails": {
+        "jobCompany": {
+          "*company": "urn:li:fsd_company:38108552",
+          "rawCompanyName": null
+        }
+      },
+      "description": {
+        "text": "About The Role\n\nOptery helps people get their personal data off broker sites. We're a fully remote team, headquartered in the San Francisco Bay Area, and we're hiring a Senior Backend Engineer who'll work directly with the founders on product and technical direction.\n\nThis position is open to candidates based in Latin America.\n\nThe role is backend-focused: Python and Django, with light frontend work when it makes sense (HTMX, the occasional React component). You own features start to finish, including the unglamorous part where you make sure the thing works in production a week after it ships."
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "entityUrn": "urn:li:fsd_jobPosting:4487409933",
+      "title": "Senior Backend Developer (Python)",
+      "createdAt": 1794264502000,
+      "*location": "urn:li:fsd_geo:101312395",
+      "*jobWorkplaceTypes": [
+        "urn:li:fsd_workplaceType:3"
+      ],
+      "companyDetails": {
+        "jobCompany": {
+          "*company": "urn:li:fsd_company:39568",
+          "rawCompanyName": null
+        }
+      },
+      "description": {
+        "text": "Somos una gran empresa con alma de start-up. Nos organizamos por unidades de conocimiento expertas que colaboran entre sí.Por ello buscamos personas inquietas, que les motiven los retos y con ganas de crecer personal y profesionalmente, que se unan a nuestro equipo para tener un impacto positivo en el mundo a través de la tecnología.\n¿TE APUNTAS AL RETO?Queremos que formes parte de nuestro equipo como Senior Backend Developer.\n¿QUÉ HARÁS EN TU DIA A DIA?Diseñar, desarrollar, mantener y optimizar el backend de una solución financiera en Python, asegurando código limpio, escalable, seguro y mant"
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "entityUrn": "urn:li:fsd_jobPosting:4479214618",
+      "title": "Senior Backend Developer - Remote Work | REF#305668",
+      "createdAt": 1791931532000,
+      "*location": "urn:li:fsd_geo:102927786",
+      "*jobWorkplaceTypes": [
+        "urn:li:fsd_workplaceType:2"
+      ],
+      "companyDetails": {
+        "jobCompany": {
+          "*company": "urn:li:fsd_company:798671",
+          "rawCompanyName": null
+        }
+      },
+      "description": {
+        "text": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\n\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\n\nWhen you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success.\n\nAs a Senior Backend Developer a"
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "entityUrn": "urn:li:fsd_jobPosting:4478592777",
+      "title": "Desarrollador Backend Java Senior",
+      "createdAt": 1791839853000,
+      "*location": "urn:li:fsd_geo:101312395",
+      "*jobWorkplaceTypes": [
+        "urn:li:fsd_workplaceType:3"
+      ],
+      "companyDetails": {
+        "jobCompany": {
+          "*company": "urn:li:fsd_company:68198",
+          "rawCompanyName": null
+        }
+      },
+      "description": {
+        "text": "Título del puesto: Desarrollador Backend Java Senior\n\nHabilidades clave: Java, Spring Boot, Spring Cloud, programación reactiva, microservicios, API REST, SQL, Cosmos DB, Oracle, Docker, Kubernetes, pruebas unitarias, Git, principios SOLID y código limpio.\n\nExperiencia: +5 años de experiencia.\n\nUbicación: Lima, Perú.\n\nModalidad: Remota, con disponibilidad para asistir a las oficinas de Lima cuando el cliente lo requiera.\n\nEn Coforge estamos buscando un Desarrollador Backend Java Senior con experiencia en desarrollo de aplicaciones empresariales, arquitectura de microservicios y programación re"
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "entityUrn": "urn:li:fsd_jobPosting:4484237621",
+      "title": "Backend Developer Cloud Sr.",
+      "createdAt": 1793133687000,
+      "*location": "urn:li:fsd_geo:101312395",
+      "*jobWorkplaceTypes": [
+        "urn:li:fsd_workplaceType:3"
+      ],
+      "companyDetails": {
+        "jobCompany": {
+          "*company": "urn:li:fsd_company:559090",
+          "rawCompanyName": null
+        }
+      },
+      "description": {
+        "text": "En 𝗘𝗩𝗢𝗟 estamos en búsqueda de un/a 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗖𝗹𝗼𝘂𝗱 – 𝗦𝗲𝗻𝗶𝗼𝗿 para integrarse a nuestro equipo de tecnología, diseñando y desarrollando soluciones backend escalables, arquitecturas de microservicios e integraciones cloud que contribuyan a la evolución tecnológica y transformación digital del negocio.\n¿Cuál debe ser tu experiencia?• Experiencia sólida en desarrollo backend con Java (Spring Boot / Quarkus) y/o .NET Core.• Experiencia en el diseño y desarrollo de arquitecturas de microservicios y APIs RESTful.• Experiencia implementando soluciones en entornos"
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.common.Geo",
+      "entityUrn": "urn:li:fsd_geo:101312395",
+      "defaultLocalizedName": "Lima, Perú"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.common.Geo",
+      "entityUrn": "urn:li:fsd_geo:102927786",
+      "defaultLocalizedName": "Perú"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobDescription",
+      "entityUrn": "urn:li:fsd_jobDescription:4487409933",
+      "*jobPosting": "urn:li:fsd_jobPosting:4487409933",
+      "descriptionText": {
+        "text": "Somos una gran empresa con alma de start-up. Nos organizamos por unidades de conocimiento expertas que colaboran entre sí.Por ello buscamos personas inquietas, que les motiven los retos y con ganas de crecer personal y profesionalmente, que se unan a nuestro equipo para tener un impacto positivo en el mundo a través de la tecnología.\n¿TE APUNTAS AL RETO?Queremos que formes parte de nuestro equipo como Senior Backend Developer.\n¿QUÉ HARÁS EN TU DIA A DIA?Diseñar, desarrollar, mantener y optimizar el backend de una solución financiera en Python, asegurando código limpio, escalable, seguro y mant"
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobDescription",
+      "entityUrn": "urn:li:fsd_jobDescription:4479214618",
+      "*jobPosting": "urn:li:fsd_jobPosting:4479214618",
+      "descriptionText": {
+        "text": "At BairesDev®, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley.\n\nOur diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide.\n\nWhen you apply for this position, you're taking the first step in a process that goes beyond the ordinary. We aim to align your passions and skills with our vacancies, setting you on a path to exceptional career development and success.\n\nAs a Senior Backend Developer a"
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobDescription",
+      "entityUrn": "urn:li:fsd_jobDescription:4488432885",
+      "*jobPosting": "urn:li:fsd_jobPosting:4488432885",
+      "descriptionText": {
+        "text": "About The Role\n\nOptery helps people get their personal data off broker sites. We're a fully remote team, headquartered in the San Francisco Bay Area, and we're hiring a Senior Backend Engineer who'll work directly with the founders on product and technical direction.\n\nThis position is open to candidates based in Latin America.\n\nThe role is backend-focused: Python and Django, with light frontend work when it makes sense (HTMX, the occasional React component). You own features start to finish, including the unglamorous part where you make sure the thing works in production a week after it ships."
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobDescription",
+      "entityUrn": "urn:li:fsd_jobDescription:4484237621",
+      "*jobPosting": "urn:li:fsd_jobPosting:4484237621",
+      "descriptionText": {
+        "text": "En 𝗘𝗩𝗢𝗟 estamos en búsqueda de un/a 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗖𝗹𝗼𝘂𝗱 – 𝗦𝗲𝗻𝗶𝗼𝗿 para integrarse a nuestro equipo de tecnología, diseñando y desarrollando soluciones backend escalables, arquitecturas de microservicios e integraciones cloud que contribuyan a la evolución tecnológica y transformación digital del negocio.\n¿Cuál debe ser tu experiencia?• Experiencia sólida en desarrollo backend con Java (Spring Boot / Quarkus) y/o .NET Core.• Experiencia en el diseño y desarrollo de arquitecturas de microservicios y APIs RESTful.• Experiencia implementando soluciones en entornos"
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.JobDescription",
+      "entityUrn": "urn:li:fsd_jobDescription:4478592777",
+      "*jobPosting": "urn:li:fsd_jobPosting:4478592777",
+      "descriptionText": {
+        "text": "Título del puesto: Desarrollador Backend Java Senior\n\nHabilidades clave: Java, Spring Boot, Spring Cloud, programación reactiva, microservicios, API REST, SQL, Cosmos DB, Oracle, Docker, Kubernetes, pruebas unitarias, Git, principios SOLID y código limpio.\n\nExperiencia: +5 años de experiencia.\n\nUbicación: Lima, Perú.\n\nModalidad: Remota, con disponibilidad para asistir a las oficinas de Lima cuando el cliente lo requiera.\n\nEn Coforge estamos buscando un Desarrollador Backend Java Senior con experiencia en desarrollo de aplicaciones empresariales, arquitectura de microservicios y programación re"
+      }
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.WorkplaceType",
+      "entityUrn": "urn:li:fsd_workplaceType:3",
+      "workplaceTypeEnum": "HYBRID",
+      "localizedName": "Híbrido"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.jobs.WorkplaceType",
+      "entityUrn": "urn:li:fsd_workplaceType:2",
+      "workplaceTypeEnum": "REMOTE",
+      "localizedName": "En remoto"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.Company",
+      "entityUrn": "urn:li:fsd_company:38108552",
+      "name": "Optery"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.Company",
+      "entityUrn": "urn:li:fsd_company:39568",
+      "name": "SEIDOR"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.Company",
+      "entityUrn": "urn:li:fsd_company:559090",
+      "name": "EVOL (TSnet)"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.Company",
+      "entityUrn": "urn:li:fsd_company:798671",
+      "name": "BairesDev"
+    },
+    {
+      "$type": "com.linkedin.voyager.dash.organization.Company",
+      "entityUrn": "urn:li:fsd_company:68198",
+      "name": "Encora Inc."
+    }
+  ]
+}
