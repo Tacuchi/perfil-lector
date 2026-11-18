@@ -34,7 +34,7 @@ Qué no es:
 
 ![Diagrama de contexto de perfil-lector](docs/architecture/context.svg)
 
-[Versión interactiva](docs/architecture/context.html): descarga el archivo y ábrelo en un navegador.
+[Versión interactiva](https://tacuchi.github.io/perfil-lector/architecture/context.html).
 
 | Interfaz externa | Dirección | Cuándo ocurre |
 |---|---|---|
@@ -54,7 +54,7 @@ No hay una conexión del lector local con el sitio público, la base de datos ni
 
 ![Diagrama de contenedores de perfil-lector](docs/architecture/containers.svg)
 
-[Versión interactiva](docs/architecture/containers.html): descarga el archivo y ábrelo en un navegador.
+[Versión interactiva](https://tacuchi.github.io/perfil-lector/architecture/containers.html).
 
 | Bloque | Responsabilidad | Código |
 |---|---|---|
