@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Contexto de perfil-lector",
+    "locale": "es",
+    "output": "docs/architecture/context.html",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/Tacuchi/perfil-lector.git",
+      "provider": "github",
+      "link_mode": "web",
+      "revision": "b713101243e2812bff7f22220f6a35ff012dcb41"
+    }
+  },
+  "components": [
+    {
+      "id": "panel",
+      "type": "external",
+      "label": "Panel",
+      "sublabel": "Enlace en la misma Mac",
+      "pos": [
+        40,
+        240
+      ],
+      "size": [
+        190,
+        72
+      ],
+      "sources": [
+        {
+          "path": "src/enlace.ts",
+          "line": 1,
+          "end_line": 9
+        },
+        {
+          "path": "src/instalador/app.ts",
+          "line": 23,
+          "end_line": 34
+        }
+      ]
+    },
+    {
+      "id": "lector",
+      "type": "backend",
+      "label": "perfil-lector",
+      "sublabel": "Lector local · Node.js",
+      "pos": [
+        450,
+        225
+      ],
+      "size": [
+        240,
+        104
+      ],
+      "sources": [
+        {
+          "path": "package.json",
+          "line": 2,
+          "end_line": 11
+        },
+        {
+          "path": "src/corrida.ts",
+          "line": 27,
+          "end_line": 67
+        },
+        {
+          "path": "src/api.ts",
+          "line": 32,
+          "end_line": 62
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "cloud",
+      "label": "API",
+      "sublabel": "Inicio, entregas y cierre",
+      "pos": [
+        910,
+        240
+      ],
+      "size": [
+        190,
+        72
+      ],
+      "sources": [
+        {
+          "path": "src/api.ts",
+          "line": 32,
+          "end_line": 62
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "type": "external",
+      "label": "LinkedIn",
+      "sublabel": "Recomendadas; login si falta",
+      "pos": [
+        450,
+        40
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "sources": [
+        {
+          "path": "src/fuentes/linkedin.ts",
+          "line": 176,
+          "end_line": 206
+        },
+        {
+          "path": "src/fuentes/linkedin.ts",
+          "line": 219,
+          "end_line": 255
+        }
+      ]
+    },
+    {
+      "id": "bumeran",
+      "type": "external",
+      "label": "Bumeran",
+      "sublabel": "Tecnología · búsqueda visible",
+      "pos": [
+        450,
+        460
+      ],
+      "size": [
+        240,
+        72
+      ],
+      "sources": [
+        {
+          "path": "src/fuentes/bumeran.ts",
+          "line": 5,
+          "end_line": 14
+        },
+        {
+          "path": "src/fuentes/bumeran.ts",
+          "line": 129,
+          "end_line": 148
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "enlace",
+      "from": "panel",
+      "to": "lector",
+      "label": "Enlace local",
+      "variant": "default"
+    },
+    {
+      "id": "entregas",
+      "from": "lector",
+      "to": "api",
+      "label": "POST con credencial",
+      "variant": "security"
+    },
+    {
+      "id": "recomendadas",
+      "from": "lector",
+      "to": "linkedin",
+      "label": "Chrome al leer",
+      "variant": "default"
+    },
+    {
+      "id": "busqueda",
+      "from": "lector",
+      "to": "bumeran",
+      "label": "Chrome al leer",
+      "variant": "default"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Una corrida por enlace",
+      "items": [
+        "Valida la dirección antes de leer el Llavero o llamar a la api.",
+        "Cada fuente lee y entrega sin esperar a las otras."
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Alcance verificado",
+      "items": [
+        "Solo entrega avisos completos; el límite lo indica la api.",
+        "Las alertas de LinkedIn están desactivadas. Bumeran no resuelve verificaciones."
+      ]
+    }
+  ]
+}

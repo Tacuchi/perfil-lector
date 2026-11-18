@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Contenedores de perfil-lector",
+    "locale": "es",
+    "output": "docs/architecture/containers.html",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/Tacuchi/perfil-lector.git",
+      "provider": "github",
+      "link_mode": "web",
+      "revision": "b713101243e2812bff7f22220f6a35ff012dcb41"
+    }
+  },
+  "components": [
+    {
+      "id": "app",
+      "type": "frontend",
+      "label": "App del enlace",
+      "sublabel": "AppleScript · arranque puntual",
+      "pos": [
+        40,
+        230
+      ],
+      "size": [
+        210,
+        72
+      ],
+      "sources": [
+        {
+          "path": "src/instalador/app.ts",
+          "line": 23,
+          "end_line": 34
+        },
+        {
+          "path": "src/instalador/app.ts",
+          "line": 38,
+          "end_line": 56
+        }
+      ]
+    },
+    {
+      "id": "lector",
+      "type": "backend",
+      "label": "Lector local",
+      "sublabel": "Node.js · fuentes concurrentes",
+      "pos": [
+        360,
+        230
+      ],
+      "size": [
+        230,
+        82
+      ],
+      "sources": [
+        {
+          "path": "src/main.ts",
+          "line": 12,
+          "end_line": 18
+        },
+        {
+          "path": "src/corrida.ts",
+          "line": 27,
+          "end_line": 67
+        },
+        {
+          "path": "src/api.ts",
+          "line": 55,
+          "end_line": 69
+        }
+      ]
+    },
+    {
+      "id": "llavero",
+      "type": "security",
+      "label": "Llavero de macOS",
+      "sublabel": "URL y token de servicio",
+      "pos": [
+        360,
+        40
+      ],
+      "size": [
+        230,
+        72
+      ],
+      "sources": [
+        {
+          "path": "src/credenciales.ts",
+          "line": 28,
+          "end_line": 31
+        },
+        {
+          "path": "src/credenciales.ts",
+          "line": 48,
+          "end_line": 65
+        }
+      ]
+    },
+    {
+      "id": "registro",
+      "type": "database",
+      "label": "Registro local",
+      "sublabel": "Metadatos; sin cuerpos",
+      "pos": [
+        40,
+        40
+      ],
+      "size": [
+        210,
+        72
+      ],
+      "sources": [
+        {
+          "path": "src/registro.ts",
+          "line": 5,
+          "end_line": 16
+        },
+        {
+          "path": "src/registro.ts",
+          "line": 24,
+          "end_line": 33
+        },
+        {
+          "path": "src/corrida.ts",
+          "line": 91,
+          "end_line": 106
+        }
+      ]
+    },
+    {
+      "id": "chrome",
+      "type": "backend",
+      "label": "Chrome",
+      "sublabel": "Un contexto por conexión",
+      "pos": [
+        360,
+        470
+      ],
+      "size": [
+        230,
+        82
+      ],
+      "sources": [
+        {
+          "path": "src/fuentes/navegador.ts",
+          "line": 53,
+          "end_line": 72
+        },
+        {
+          "path": "src/fuentes/linkedin.ts",
+          "line": 54,
+          "end_line": 64
+        },
+        {
+          "path": "src/fuentes/bumeran.ts",
+          "line": 56,
+          "end_line": 66
+        }
+      ]
+    },
+    {
+      "id": "perfiles",
+      "type": "database",
+      "label": "Perfiles dedicados",
+      "sublabel": "Sesión persistente por fuente",
+      "pos": [
+        40,
+        470
+      ],
+      "size": [
+        210,
+        82
+      ],
+      "sources": [
+        {
+          "path": "src/fuentes/navegador.ts",
+          "line": 5,
+          "end_line": 8
+        },
+        {
+          "path": "src/fuentes/navegador.ts",
+          "line": 53,
+          "end_line": 61
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "cloud",
+      "label": "API",
+      "sublabel": "POST con token del proxy",
+      "pos": [
+        900,
+        230
+      ],
+      "size": [
+        220,
+        82
+      ],
+      "sources": [
+        {
+          "path": "src/api.ts",
+          "line": 32,
+          "end_line": 62
+        },
+        {
+          "path": "src/credenciales.ts",
+          "line": 48,
+          "end_line": 65
+        }
+      ]
+    },
+    {
+      "id": "sitios",
+      "type": "external",
+      "label": "LinkedIn / Bumeran",
+      "sublabel": "Solo respuestas de la página",
+      "pos": [
+        900,
+        470
+      ],
+      "size": [
+        220,
+        82
+      ],
+      "sources": [
+        {
+          "path": "src/fuentes/linkedin.ts",
+          "line": 61,
+          "end_line": 65
+        },
+        {
+          "path": "src/fuentes/linkedin.ts",
+          "line": 119,
+          "end_line": 143
+        },
+        {
+          "path": "src/fuentes/bumeran.ts",
+          "line": 63,
+          "end_line": 110
+        }
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Mac de la persona",
+      "wraps": [
+        "app",
+        "lector",
+        "llavero",
+        "registro",
+        "chrome",
+        "perfiles"
+      ],
+      "pad": 24
+    }
+  ],
+  "connections": [
+    {
+      "id": "lanzar",
+      "from": "app",
+      "to": "lector",
+      "label": "Enlace citado",
+      "variant": "default"
+    },
+    {
+      "id": "credenciales",
+      "from": "lector",
+      "to": "llavero",
+      "label": "Leer al iniciar",
+      "variant": "security"
+    },
+    {
+      "id": "registrar",
+      "from": "lector",
+      "to": "registro",
+      "label": "Resultado",
+      "variant": "default"
+    },
+    {
+      "id": "leer",
+      "from": "lector",
+      "to": "chrome",
+      "label": "Abrir por conexión",
+      "variant": "default"
+    },
+    {
+      "id": "sesion",
+      "from": "chrome",
+      "to": "perfiles",
+      "label": "Abrir perfil",
+      "variant": "default"
+    },
+    {
+      "id": "enviar",
+      "from": "lector",
+      "to": "api",
+      "label": "Iniciar, entregar, cerrar",
+      "variant": "security"
+    },
+    {
+      "id": "cargar",
+      "from": "chrome",
+      "to": "sitios",
+      "label": "HTTPS si la api permite",
+      "variant": "default"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "rose",
+      "title": "Límites de confianza",
+      "items": [
+        "El token sale del Llavero hacia el proxy de acceso en las peticiones a la api.",
+        "El código de corrida solo viaja en el cuerpo JSON.",
+        "Las cookies quedan en el perfil y en las peticiones al sitio correspondiente."
+      ]
+    },
+    {
+      "dot": "cyan",
+      "title": "Procesos y persistencia",
+      "items": [
+        "La app lanza Node en segundo plano y termina. No instala un servicio.",
+        "Chrome se cierra al terminar cada lector. Los perfiles y el registro no tienen purga automática."
+      ]
+    }
+  ]
+}
