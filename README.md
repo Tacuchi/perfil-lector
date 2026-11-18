@@ -79,4 +79,4 @@ en el código, ver [docs/desarrollo.md](docs/desarrollo.md).
 
 ## Licencia
 
-No hay una licencia declarada en el manifiesto ni un archivo de licencia en este repositorio.
+[MIT](LICENSE).
